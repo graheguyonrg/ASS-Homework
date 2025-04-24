@@ -4,7 +4,6 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-# 定义总表文件名
 SUMMARY_FILE = '活动总分汇总表.xlsx'
 
 def process_activity_data(file_pattern='S*.xlsx', update_mode=True):
